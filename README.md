@@ -5,4 +5,4 @@ Simple Dice game on c++
 
 ## Download
 
-[Download](https://github.com/SolinCode/Solin-Dice-game/blob/master/Dice%20game.exe)
+[Last release](https://github.com/SolinCode/Solin-Dice-game/blob/master/Dice%20game.exe)
