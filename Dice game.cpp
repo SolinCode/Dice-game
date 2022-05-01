@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "windows.h"
 
 #define _BIND_TO_CURRENT_CRT_VERSION 1
@@ -156,68 +156,69 @@ int main()
                 break;
 
             case 2:
+
                 //Round 1
                 progressBar();
                 computer[0] = chance(temp2);
-                cout << "Round 1 >> Computer rolled the number " << computer[0] << endl;
+                cout << "Round 1 > Computer rolled the number " << computer[0] << endl;
 
-                cout << "Round 1 >> You rolled the dice and got the number > ";
+                cout << "Round 1 > > Enter \"1\" for roll dice >> ";
                 cin >> temp;
 
                 player[0] = chance(temp);
-                cout << "Round 1 >> You rolled the dice and got the number " << player[0] << endl << endl;
+                cout << "Round 1 > You rolled the dice and got the number " << player[0] << endl << endl;
 
 
 
                 //Round 2
                 progressBar();
                 computer[1] = chance(temp2);
-                cout << "Round 2 >> Computer rolled the number " << computer[1] << endl;
+                cout << "Round 2 > Computer rolled the number " << computer[1] << endl;
 
-                cout << "Round 2 >> You rolled the dice and got the number > ";
+                cout << "Round 2 > > Enter \"1\" for roll dice >> ";
                 cin >> temp;
 
                 player[1] = chance(temp);
-                cout << "Round 2 >> You rolled the dice and got the number " << player[1] << endl << endl;
+                cout << "Round 2 > You rolled the dice and got the number " << player[1] << endl << endl;
 
 
 
                 //Round 3
                 progressBar();
                 computer[2] = chance(temp2);
-                cout << "Round 3 >> Computer rolled the number " << computer[2] << endl;
+                cout << "Round 3 > Computer rolled the number " << computer[2] << endl;
 
-                cout << "Round 3 >> You rolled the dice and got the number > ";
+                cout << "Round 3 > > Enter \"1\" for roll dice >> ";
                 cin >> temp;
 
                 player[2] = chance(temp);
-                cout << "Round 3 >> You rolled the dice and got the number " << player[2] << endl << endl;
+                cout << "Round 3 > You rolled the dice and got the number " << player[2] << endl << endl;
 
 
 
                 //Round 4
                 progressBar();
                 computer[3] = chance(temp2);
-                cout << "Round 4 >> Computer rolled the number " << computer[3] << endl;
+                cout << "Round 4 > Computer rolled the number " << computer[3] << endl;
 
-                cout << "Round 4 >> You rolled the dice and got the number > ";
+                cout << "Round 4 > > Enter \"1\" for roll dice >> ";
                 cin >> temp;
 
                 player[3] = chance(temp);
-                cout << "Round 4 >> You rolled the dice and got the number " << player[3] << endl << endl;
+                cout << "Round 4 > You rolled the dice and got the number " << player[3] << endl << endl;
 
 
 
                 //Round 5
                 progressBar();
                 computer[4] = chance(temp2);
-                cout << "Round 5 >> Computer rolled the number " << computer[4] << endl;
+                cout << "Round 5 > Computer rolled the number " << computer[4] << endl;
 
-                cout << "Round 5 >> You rolled the dice and got the number > ";
+                cout << "Round 5 > > Enter \"1\" for roll dice >> ";
                 cin >> temp;
 
                 player[4] = chance(temp);
-                cout << "Round 5 >> You rolled the dice and got the number " << player[4] << endl;
+                cout << "Round 5 > You rolled the dice and got the number " << player[4] << endl << endl;
                 break;
 
             default:
